@@ -5,6 +5,11 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body{
+        background-image: linear-gradient(to bottom, rgb(1, 1, 173), rgb(58, 29, 58));
+    }
+
     #login{
         width: 90vw;
         
@@ -13,28 +18,56 @@
     #img {
         float: left;
         width: 30%;
-        height: 100%;
     }
 
     #form {
         float: right;
         width: 70%;
     }
+
+    div.campo {
+        
+    }
+
+    #form > h1 {
+        
+    }
+    
+    #form > p {
+        
+    }
+
+    form > input[type = submit] {
+        margin-top: 136px;
+    }
 }
 
 @media screen and (min-width:992px) {
+
+    body {
+        background-image: linear-gradient(to right, green, blue);
+    }
+
     #login{
         width: 90vw
     }
 
     #img{
-        float: left;
-        width: 50%;
+        float: right;
+        width: 30%;
         height: 100%;
     }
 
     #form {
-        float: right;
-        width: 50%;
+        float: left;
+        width: 70%;
+    }
+
+    #form > h1 {
+        
+    }
+
+    form > input[type = submit] {
+        margin-top: 136px;
     }
 }
