@@ -55,14 +55,45 @@ main {
 div.campo {
     height: 30px;
     margin-bottom: 5px;
-    background-color: #cbaf55;
+    background-color: #b87f78;
     box-shadow: 1px 1px 1px #5f4d27;
+    border: 2px solid #b87f78;
     border-radius: 5px;
 }
 
-div > span {
+div.campo > input {
+    background-color: #ecbaa2;
     color: white;
+    padding: 4px;
+    font-size: 1em;
+    width: calc(100% - 35px);
+    transform: translateY(-8px);
+    height: 100%;
+    border: none;
+    border-radius: 5px;
 }
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+div.campo > input:focus-within {
+    background-color: rgb(202, 202, 202);
+}
+
+
+
+div > span {
+    background-color: #b87f78;
+    color: white;
+    font-size: 2em;
+    padding: 3px;
+    border-radius: 5px;
+    
+    
+}
+
 
 form > input[type = submit] {
     display: block;
@@ -76,6 +107,7 @@ form > input[type = submit] {
     border: none;
     border-radius: 5px;
 }
+
 
 form > input[type = submit]:hover {
     background-color: #663f2d;

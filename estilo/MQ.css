@@ -63,11 +63,40 @@
         width: 70%;
     }
 
+    div.campo {
+        background-color: rgb(120, 120, 240);
+        border: 2px solid rgb(120, 120, 240);
+    }
+
+    div > span {
+        background-color: rgb(120, 120, 240);
+    }
+
+    div.campo > input {
+        background-color: rgb(1, 184, 1);
+        color: aliceblue;
+    }
+
+
     #form > h1 {
         
     }
 
+
     form > input[type = submit] {
+        background-color: rgb(89, 169, 235);
         margin-top: 136px;
+    }
+
+    form > input[type = submit]:hover {
+        background-color:  rgb(27, 62, 90);;
+    }
+
+    form > a.senhaf {
+        box-shadow: 2px 2px 1px  rgb(89, 169, 235);
+    }
+
+    form > a.senhaf:hover {
+        background-color:  rgb(37, 52, 138);;
     }
 }
